@@ -1,4 +1,4 @@
-## 🧑‍💻 Modern Workplace Engineer
+## 🧑‍💻 M365 | Intune | DevOps | Security Engineer
 Microsoft 365 | Intune | PowerShell | Security Automation
 
 I'm a Microsoft 365 engineer specializing in:
