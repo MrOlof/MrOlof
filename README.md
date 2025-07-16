@@ -26,6 +26,6 @@ I share tools, scripts, and real-world solutions for modern IT teams.
 
 ---
 
-## 📫 Let's Connect
+## 📫 Socials
 - 🔗 [GitHub](https://github.com/MrOlof)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/kosta-wadenfalk/)
