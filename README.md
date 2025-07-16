@@ -29,6 +29,4 @@ I share tools, scripts, and real-world solutions for modern IT teams.
 
 ## 📫 Let's Connect
 - 🔗 [GitHub](https://github.com/MrOlof)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN) *(replace with your real link)*
-
-> Building toward Microsoft MVP by solving real problems and sharing what works.
+- 🔗 [LinkedIn](https://www.linkedin.com/in/kosta-wadenfalk/)
