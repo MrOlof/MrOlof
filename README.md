@@ -1,5 +1,3 @@
-# 👋 Kosta Wadenfalk
-
 **Modern Workplace Engineer** | Microsoft 365 | Intune | PowerShell | Security Automation
 
 ---
