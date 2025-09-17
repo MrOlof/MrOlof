@@ -8,5 +8,3 @@ I'm a Microsoft 365 engineer specializing in:
 - 🔐 **Identity and security** with Entra ID, Defender, and Conditional Access  
 - ☁️ **Cloud-native management** of Windows, apps, and users  
 - 🚀 **CI/CD workflows** for IT operations and infrastructure-as-code  
-
-I share tools, scripts, and real-world solutions for modern IT teams.
