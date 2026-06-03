@@ -25,6 +25,6 @@ jobs:
         with:
           feed_list: "https://mrolof.dev/rss.xml"
           max_post_count: 5
-          template: "- [$title]($url) <sub>$date</sub>$newline"
+          template: "$newline- [$title]($url) <sub>$date</sub>"
           date_format: "UTC:mmm d, yyyy"
           commit_message: "chore: refresh latest blog posts"
