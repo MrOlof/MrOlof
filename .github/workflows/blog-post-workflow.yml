@@ -1,0 +1,30 @@
+name: Latest blog posts
+
+# Pulls the newest posts from the mrolof.dev RSS feed into README.md
+# between the BLOG-POST-LIST markers. The feed is regenerated on every
+# blog deploy, so a daily refresh keeps the profile current on its own.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily at 06:00 UTC
+  workflow_dispatch:        # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Update README with latest posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Pull latest posts from mrolof.dev
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://mrolof.dev/rss.xml"
+          max_post_count: 5
+          template: "- [$title]($url) <sub>$date</sub>$newline"
+          date_format: "UTC:mmm d, yyyy"
+          commit_message: "chore: refresh latest blog posts"
